@@ -27,11 +27,6 @@ The process is straightforward:
 * No external libraries are needed.
 
 
-### **Command-Line Arguments**
-
-* `--input` or `-i`: (Optional) The path to your input `.mbox` file. Defaults to `Sent-001.mbox`.  
-* `--output` or `-o`: (Optional) The name of the output JSON file. Defaults to the input file name with a `.json` extension.
-
 ## **Output JSON Format**
 
 The script will generate an array of JSON objects, where each object represents an email with the following structure:
