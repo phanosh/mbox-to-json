@@ -26,26 +26,6 @@ The process is straightforward:
 * Python 3.6 or higher.  
 * No external libraries are needed.
 
-### **Instructions**
-
-1. **Clone the repository:**
-
-```
-git clone <your-repository-url>
-cd <your-repository-directory>
-```
-
-2.   
-   **Place your Mbox file in the directory.** You can download this file from [Google Takeout](https://takeout.google.com/).  
-3. **Run the script from your terminal.** Use the `-i` flag for the input `.mbox` file and the `-o` flag for the desired output `.json` file.
-
-```
-python mbox_to_json.py -i YourEmails.mbox -o output.json
-
-```
-
-5.   
-   If you don't provide arguments, it will look for a default `Sent-001.mbox` file and create `Sent-001.mbox.json`.
 
 ### **Command-Line Arguments**
 
@@ -75,13 +55,6 @@ The script will generate an array of JSON objects, where each object represents 
 ]
 
 ```
-
-## **Next Steps & Roadmap**
-
-* Integrate with LLM APIs (like OpenAI, Gemini, etc.).  
-* Develop example "agent" scripts for tasks like summarization and auto-reply.  
-* Add support for parsing HTML content and attachments.  
-* Build a simple UI for easier conversion.
 
 ## **Contributing**
 
